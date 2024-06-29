@@ -5,12 +5,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: echo
-              run: echo "Hello World!"
+              run:  echo "Hello World!"
     echo-goodbye:
         runs-on: ubuntu-latest
         steps:
-            - name: fail
-              run:  echo "failed!"
+            - name: ok
+              run:  echo "OK!"
             - name: exit
               run: | 
                echo "failed"
