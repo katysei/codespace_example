@@ -13,7 +13,7 @@ jobs:
               run:  echo "OK!"
             - name: exit
               run: | 
-               echo "failed"
-               exit -1
+               echo "yes!!!"
+               exit 0
             - name: bye
               run: echo "goodbye"
